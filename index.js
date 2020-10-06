@@ -1,3 +1,8 @@
+var _ = require("lodash");
+const arr = [1,2,3,4,5,6,6,7,8,9];
+
+console.log(_.without(arr, 6));
+
 const sounds = document.querySelectorAll(".sound");
 const pads = document.querySelectorAll(".pads div");
 const icon = document.querySelector(".visual i");

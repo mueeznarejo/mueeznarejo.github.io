@@ -1,0 +1,23 @@
+{
+  "name": "music-drum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mueeznarejo/music-drum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mueeznarejo/music-drum/issues"
+  },
+  "homepage": "https://github.com/mueeznarejo/music-drum#readme",
+  "dependencies": {
+    "browserify": "^16.5.2",
+    "lodash": "^4.17.20"
+  }
+}
