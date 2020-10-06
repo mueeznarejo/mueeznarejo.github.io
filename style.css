@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+header p {
+  font-size: 25px;
+}
+
+.pads {
+  width: 70%;
+  display: flex;
+}
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 100px;
+  color: white;
+}
+.pad1 {
+  background: #182825;
+}
+.pad2 {
+  background: #016FB9;
+}
+.pad3 {
+  background: #22AED1;
+}
+.pad4 {
+  background: #6D8EA0;
+}
+.pad5 {
+  background: #AFA98D;
+}
+.pad6 {
+  background: #B80C09;
+}
+.visual {
+  position: relative;
+}
+.visual i {
+    font-size: 37px;
+    background: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 99px;
+    border-radius: 50%;
+    /* background-color: red; */
+    padding-right: 6px;
+}
+
+.active {
+  opacity: 0.8;
+}
+
+.animate {
+  animation: jump 0.3s ease;
+}
+
+@keyframes jump {
+  0% {
+    box-shadow: 0 0 0 0;
+  }
+  50% {
+    box-shadow: 0 0 4px 18px;
+  }
+
+  100% {
+    box-shadow: 0 0 0 0;
+  }
+}
